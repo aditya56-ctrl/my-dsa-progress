@@ -11,7 +11,7 @@ class Solution {
 			if (s.empty())
 				ans[i] = i + 1;
 			else
-				ans[i] = i - s.top();
+				ans[i] = i - s.top();  // curr index - previous high 
 			
 			s.push(i);
 		}
