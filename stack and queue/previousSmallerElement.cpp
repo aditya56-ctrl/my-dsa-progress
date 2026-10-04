@@ -20,7 +20,6 @@ class Solution {
 
 
 // optimal
-
 class Solution {
   public:
     vector<int> prevSmaller(vector<int>& arr) {
